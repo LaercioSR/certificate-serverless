@@ -37,6 +37,10 @@ $ cd certificate-serverless
 
 # Instale as dependências
 $ npm install
+
+# Execute a aplicação
+$ serverless offline
+# Se tudo estiver correto, a aplicação será executada no http://localhost:3000
 ```
 
 ## Tecnologias
