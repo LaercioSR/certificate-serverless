@@ -38,7 +38,11 @@ $ cd certificate-serverless
 # Instale as dependências
 $ npm install
 
-# Execute a aplicação
+# Instale e execute o DynamoDB para executar localmente
+$ serverless dynamodb install
+$ serverless dynamodb start
+
+# Em um outro terminal execute a aplicação
 $ serverless offline
 # Se tudo estiver correto, a aplicação será executada no http://localhost:3000
 ```
